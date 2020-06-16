@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contato</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="icon" type="image/png" href="img/logov2.png">
+    <style type="text/css">
+        .content{display: flex; justify-content: center} 
+        .contato-form {margin-top: 10%; width: 100% max-width 500px;} 
+        .form {display: flex; flex-direction: column;} 
+        .campo {padding: 10px; margin-bottom: 15px; border: 1px solid #DDD; border-radius: 5px; font-size: 16px;}
+        .bt-enviar {padding: 10px; margin-bottom: 15px; border: 1px solid #e32636; border-radius: 5px; font-size: 18px; background-color: #e32636; color: #fff;}
+        textarea {height: 150px;}
+    </style>
+</head>
+<body style="background-color: #263238;">
+
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <img src="img/logov2.png">        
+    </div>
+
+    <ul class="list-unstyled">
+        <li>
+            <a href="index.html"><span class="icon"><i class="fas fa-home"></i></span>Início</a>
+        </li>
+        <li>
+            <a href="sobre.html"><span class="icon"><i class="fas fa-info-circle"></i></span>Sobre mim</a>
+        </li>
+        <li>
+            <a href="portfolio.html"><span class="icon"><i class="fas fa-briefcase"></i></span>Portfólio</a>
+        </li>
+        <li>
+            <a href="contato.html"><span class="icon"><i class="fas fa-envelope fa-fw"></i></span>Contato</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+    <div class="container" >
+        <h1 id="cabecalho-contato">Entre em contato comigo!<span class="emoji-contato">&#128516</span></h1>
+
+        <div class="contato-form">
+            <form class="form" method="POST" action="./email.php">
+                <input type="" class="campo" name="nome" placeholder="Nome.">
+                <input type="" class="campo" name="email" placeholder="E-mail.">
+                <textarea class="campo" name="messagem" placeholder="Mensagem."></textarea>
+                <input class="bt-enviar" type="submit" name="Enviar">
+            </form>
+        </div>
+
+    <div class="contato"> 
+        <ul class="lista-contato">
+        <li><a href="https://www.linkedin.com/in/jeferson-alves-rodrigues-4433989a/"><span class="icon"><i class="fa fa-linkedin fa-fw"></i></span>Linkedin</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5583991751787&text=Olá!%20Gostaria%20de%20conversar%20contigo%20sobre%20um%20projeto."><span class="icon"><i class="fa fa-whatsapp fa-fw"></i></span>Whatsapp</a></li>
+        </ul>
+    </div>
+
+    </div>
+
+</body>
+</html>
