@@ -173,6 +173,9 @@ a.dropdown-toggle.collapsed.dropdown-toggle::after {
         padding-left: 50px;
         margin-right: 0;
         padding-right: 0;
+    }
+
+    #cabecalho-home {
         border: 2px solid red;
     }
   }
